@@ -21,5 +21,6 @@ jobs:
       - name: Build and Push
         uses: docker/build-push-action@v5
         with:
+          context: .
           push: true
           tags: ajmalcolm20dev/aikido_test1:latest
